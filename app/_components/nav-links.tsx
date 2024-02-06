@@ -16,9 +16,6 @@ export default function NavLinks() {
         <li className={listItemStyle}>
           <Link href="#portfolio">Portfolio</Link>
         </li>
-        <li className={listItemStyle}>
-          <Link href="#socials">Socials</Link>
-        </li>
       </ul>
     </nav>
   );

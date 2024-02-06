@@ -27,10 +27,10 @@ export default function PortfolioProject({ project }: { project: Project }) {
     "bg-sky-500 hover:bg-sky-700 text-white font-bold py-2 px-4 rounded-md";
 
   return (
-    <div className="flex flex-col justify-between bg-slate-800 rounded-lg border-4 border-white-500">
+    <div className="even:self-start odd:self-end project bg-cover bg-project-back text-project-front border-project-front border-4 rounded-md bg-center max-w-2xl h-1/5 flex flex-col shadow-2xl m-10 justify-around">
       <div>
 
-      <div className="bg-sky-700 flex flex-col justify-start items-center">
+      <div className="flex flex-col justify-start items-center">
         <h3>{name}</h3>
       </div>
       {image !== undefined ? (

@@ -4,17 +4,10 @@ export default function About() {
       <h2>About</h2>
       <div>
         <p>
-          I decided to dedicate my life to the pursuit of excellence in the
-          field of software development.
+          As a software engineer dedicated to building clean and performant applications.
         </p>
-        <p>
-          I consider myself product-oriented because I want the software I work
-          on to be useful, performant, and scalable.
-        </p>
-        <p>
-          What I love in software development is the never-ending learning that
-          inherently comes with the field, and the joy of creating something I
-          couldn&apos;t build before.
+        <p>I&apos;m inclined to frontend development using modern tools like React and Vue,
+          but I also have the knowledge to develop backend services with Node.js, Django, and ASP.NET Core.
         </p>
       </div>
     </div>
