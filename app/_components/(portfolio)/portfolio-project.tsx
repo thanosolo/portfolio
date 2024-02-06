@@ -22,7 +22,7 @@ export default function PortfolioProject({ project }: { project: Project }) {
 
   topics = topics?.filter((topic) => topic !== "portfolio-project");
   const tagsStyle =
-    "bg-slate-500 duration-500 hover:bg-slate-700 text-white font-bold p-1 text-sm rounded-md";
+    "bg-slate-500 duration-500 hover:bg-slate-700 text-white font-bold px-2 py-1 text-sm rounded-md";
   const buttonStyle =
     "bg-sky-500 hover:bg-sky-700 text-white font-bold py-2 px-4 rounded-md duration-500";
 
