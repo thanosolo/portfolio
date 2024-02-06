@@ -1,7 +1,6 @@
 export default function Socials() {
   return (
     <div>
-      <h2>Socials</h2>
       <div className="flex flex-row justify-center items-center mt-10">
         <div>
           <a
