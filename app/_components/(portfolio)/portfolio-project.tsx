@@ -22,12 +22,12 @@ export default function PortfolioProject({ project }: { project: Project }) {
 
   topics = topics?.filter((topic) => topic !== "portfolio-project");
   const tagsStyle =
-    "bg-slate-500 hover:bg-slate-700 text-white font-bold p-1 text-sm rounded-md";
+    "bg-slate-500 duration-500 hover:bg-slate-700 text-white font-bold p-1 text-sm rounded-md";
   const buttonStyle =
     "bg-sky-500 hover:bg-sky-700 text-white font-bold py-2 px-4 rounded-md duration-500";
 
   return (
-    <div className="project bg-cover bg-project-back text-project-front border-project-front hover:shadow-2xl duration-500 border-4 rounded-md bg-center max-w-2xl h-1/5 flex flex-col m-10 justify-around">
+    <div className="project bg-cover h-fit bg-project-back text-project-front border-project-front hover:shadow-2xl duration-500 border-4 rounded-md bg-center max-w-2xl flex flex-col m-10 justify-around">
       <div>
 
       <div className="flex flex-col justify-start items-center">

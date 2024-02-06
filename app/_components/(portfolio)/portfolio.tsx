@@ -35,7 +35,7 @@ export default async function Portfolio() {
   return (
     <div id="projects" className="flex flex-col min-w-full gap-10 scroll-my-20">
       <h2>Projects</h2>
-      <div className="flex min-w-full justify-center items-center flex-row flex-wrap">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-10">
         {projects.map((project) => (
           <PortfolioProject key={project.id} project={project} />
         ))}

@@ -8,7 +8,7 @@ export default function Home() {
       <header className="bg bg-cover bg-center h-screen min-w-full">
         <div
           id="home"
-          className="bg-black bg-opacity-40 h-screen min-w-full flex flex-col justify-center items-center"
+          className="bg-black text-center bg-opacity-40 h-screen min-w-full flex flex-col justify-center items-center"
         >
           <p>- Portfolio -</p>
           <h1>Thanos Dimitriades</h1>
@@ -16,7 +16,7 @@ export default function Home() {
           <Socials />
         </div>
       </header>
-      <main className="flex flex-col items-center text-center justify-between gap-y-20 p-24">
+      <main className="flex flex-col items-center text-center justify-start gap-y-10 p-0 lg:p-20">
         <About />
         <Portfolio />
       </main>
