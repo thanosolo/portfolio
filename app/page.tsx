@@ -5,7 +5,7 @@ import Socials from "./_components/socials";
 export default function Home() {
   return (
     <>
-      <header className="bg-cover bg-center h-screen min-w-full bg-gradient-to-r from-p3-lightblue to-p3-darkblue">
+      <header className="bg bg-cover bg-center h-screen min-w-full">
         <div
           id="home"
           className="bg-black bg-opacity-40 h-screen min-w-full flex flex-col justify-center items-center"
