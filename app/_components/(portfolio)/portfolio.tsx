@@ -33,7 +33,7 @@ export default async function Portfolio() {
   };
 
   return (
-    <div id="projects" className="flex flex-col min-w-full gap-10 scroll-my-20">
+    <div id="projects" className="flex flex-col min-w-full gap-10 scroll-my-16">
       <h2>Projects</h2>
       <div className="flex justify-center flex-wrap">
         {projects.map((project) => (

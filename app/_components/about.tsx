@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div id="about" className="scroll-my-20 max-w-2xl">
+    <div id="about" className="scroll-my-16 max-w-2xl">
       <h2>About</h2>
       <div>
         <p>
