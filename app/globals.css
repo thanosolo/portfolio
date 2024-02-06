@@ -19,12 +19,7 @@
 body {
   color: rgb(var(--foreground-rgb));
   box-sizing: border-box;
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #1b1a28;
   font-size: 16px;
 }
 
