@@ -19,7 +19,7 @@ export default async function Portfolio() {
   const treeads: Project = {
     id: 1,
     name: "treeads",
-    description: "A map for the coordination of reforestation after wildfires.",
+    description: "I was the solo developer for this project. Developed for Squaredev, this map is part of the Treeads initiative (Horizon).",
     homepage: "https://treeads.app.squaredev.io/",
     image: "/projects/treeads.webp",
     topics: [
@@ -28,8 +28,7 @@ export default async function Portfolio() {
       "nextjs",
       "python",
       "fastapi",
-      "mongodb",
-      "google earth engine",
+      "mongodb"
     ],
   };
 
